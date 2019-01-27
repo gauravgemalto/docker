@@ -3,6 +3,7 @@
 #docker-compose down -v # to remove
 #docker ps -a # remove all the conatiner
 #docker network ls  #remove all un-used network #docker network prune
+#docker-compose down --rmi all # to remove all the images at the end not for production
 
 version: '2'
 services:
