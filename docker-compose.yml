@@ -1,3 +1,9 @@
+#docker-compose should be install #URL # https://docs.docker.com/compose/install/ 
+#docker-compose up # to start
+#docker-compose down -v # to remove
+#docker ps -a # remove all the conatiner
+#docker network ls  #remove all un-used network #docker network prune
+
 version: '2'
 services:
  drupal:
